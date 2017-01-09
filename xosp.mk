@@ -19,10 +19,6 @@ $(call inherit-product, device/motorola/osprey/full_osprey.mk)
 TARGET_SCREEN_WIDTH := 720
 TARGET_SCREEN_HEIGHT := 1280
 
-# Inherit some proprietary XOSP stuff.
-$(call inherit-product, vendor/xosp/config/xosp.mk)
-$(call inherit-product, vendor/xosp/config/common_full_phone.mk)
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := osprey
 PRODUCT_NAME := xosp_osprey
