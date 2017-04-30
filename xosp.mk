@@ -26,8 +26,5 @@ PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := osprey
 
-# Root method
-ROOT_METHOD := magisk
-
 # XOSP release typed
 RELEASE_TYPE := XOSP_OFFICIAL
